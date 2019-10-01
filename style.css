@@ -1,0 +1,38 @@
+header{
+    max-width: 75vh;
+    margin: auto;
+}
+
+main{
+    max-width: 75vh;
+    margin: auto;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    border: 1px solid;
+    height: 70px;
+    float: left;
+    list-style: none;
+}
+
+.whitePion{
+    border-radius: 50px;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin: 10%;
+}
+
+.brownPion{
+    border-radius: 50px;
+    background-color: chocolate;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin: 10% ;
+}
