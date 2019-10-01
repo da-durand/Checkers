@@ -36,3 +36,7 @@ li{
     margin: auto;
     margin: 10% ;
 }
+
+.selected{
+    background-color: blue;
+}

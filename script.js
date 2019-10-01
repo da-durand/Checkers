@@ -33,11 +33,27 @@ for (let j = 0; j < 5; j++){
                 var whitePion = document.createElement("div");
                 liElement.appendChild(whitePion);
                 whitePion.classList.add("whitePion");
+
+                whitePion.addEventListener("click", function(){
+                    var pion = this ;
+                    this.classList.add("selected");
+                    setTimeout(function(){
+                        pion.classList.remove("selected");
+                    }, 1000);
+                })
             }
             else if (j > 2){
                 var brownPion = document.createElement("div");
                 liElement.appendChild(brownPion);
                 brownPion.classList.add("brownPion");
+
+                brownPion.addEventListener("click", function(){
+                    var pion = this ;
+                    this.classList.add("selected");
+                    setTimeout(function(){
+                        pion.classList.remove("selected");
+                    }, 1000);
+                })
             }
         }
         else{
@@ -58,11 +74,27 @@ for (let j = 0; j < 5; j++){
                 var whitePion = document.createElement("div");
                 liElement.appendChild(whitePion);
                 whitePion.classList.add("whitePion");
+
+                whitePion.addEventListener("click", function(){
+                    var pion = this ;
+                    this.classList.add("selected");
+                    setTimeout(function(){
+                        pion.classList.remove("selected");
+                    }, 1000);
+                })
             }
             else if (j > 2){
                 var brownPion = document.createElement("div");
                 liElement.appendChild(brownPion);
                 brownPion.classList.add("brownPion");
+
+                brownPion.addEventListener("click", function(){
+                    var pion = this ;
+                    this.classList.add("selected");
+                    setTimeout(function(){
+                        pion.classList.remove("selected");
+                    }, 1000);
+                })
             }
         }
     }
